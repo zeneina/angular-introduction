@@ -16,7 +16,7 @@ export class AppComponent {
   {
     givenName: 'Ina',
     surName: 'Zenelaj',
-    age: 0x22,
+    age: 0x20,
     email: 'ina_zeneina@aueb.gr',
     address: 'Athens, Greece',
   };
