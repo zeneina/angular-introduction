@@ -130,7 +130,7 @@
   ```
 
 - Στο αρχείο `app.routes.ts` ο πίνακας `routes` περιέχει αντικείμενα που είναι ο κατάλογος των path που εμφανίζονται στο μενού της εφαρμογής μαζί με το Angular component που αντιστοιχεί στο path.
-
+n
   ```typescript
   import { Routes } from "@angular/router";
   import { EventBindExampleComponent } from "src/app/components/event-bind-example/event-bind-example.component";
