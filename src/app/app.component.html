@@ -1,4 +1,5 @@
 <div class="container">
+<<<<<<< HEAD
   <div class="d-flex flex-column gap-2">
     <nav class="navbar navbar-dark bg-primary justify-content-between">
       <a role="button" class="navbar-brand ms-3" routerLink=""
@@ -23,4 +24,25 @@
       </div>
     </div>
   </div>
+=======
+  <h3>Welcome to Angular</h3>
+  <p>
+    Hello <strong>{{ name }}</strong
+    >! Nice to meet you.
+  </p>
+
+  <h4>Component Input Example</Input></h4>
+
+  <div class="d-flex gap-5 text-nowrap">
+    <app-person-table [person]="person0"></app-person-table>
+    <app-person-table></app-person-table>
+    <app-person-table [person]="person1"></app-person-table>
+  </div>
+  <h4>{{ '@for' }} Directive Example</h4>
+
+  <div class="d-flex flex-wrap texr-nowrap gap gape-2"></div>
+  @for(user of users; track user){
+    <app-person-table [person]="user"></app-person-table>
+  }
+>>>>>>> f87d793613e515dad3d082dfeaec621a001d361f
 </div>

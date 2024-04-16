@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+<<<<<<< HEAD
 import { EventBindExampleComponent } from './components/event-bind-example/event-bind-example.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ComponentInputExampleComponent } from './components/component-input-example/component-input-example.component';
@@ -26,3 +27,7 @@ export const routes: Routes = [
   },
   { path: '', component: WelcomeComponent },
 ];
+=======
+
+export const routes: Routes = [];
+>>>>>>> f87d793613e515dad3d082dfeaec621a001d361f

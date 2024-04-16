@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "$schema": "node_modules/@angular/cli/lib/config/schema.json",
+=======
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+>>>>>>> f87d793613e515dad3d082dfeaec621a001d361f
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
