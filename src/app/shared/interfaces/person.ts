@@ -4,7 +4,6 @@ export interface Person {
   age: number;
   email: string;
   address: string;
-<<<<<<< HEAD
 }
 
 export interface EPerson {
@@ -717,6 +716,3 @@ export const ManyPerson: EPerson[] = [
     education: 'Associate degree',
   },
 ];
-=======
-}
->>>>>>> f87d793613e515dad3d082dfeaec621a001d361f
